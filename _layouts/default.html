@@ -12,18 +12,18 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- Google font -->
+        <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
     </head>
     <body>
-
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+              <h1 class="title">
+                <a href="/">{{ site.name }}</a>
+              </h1>
             </div>
-
-                {{ content }}
-
+              {{ content }}
             <div class="footer">
               <div class="contact">
                 <p>
@@ -40,7 +40,6 @@
               </div>
             </div>
           </div>
-        </div> <!-- /container -->
-
+        </div>
     </body>
 </html>
