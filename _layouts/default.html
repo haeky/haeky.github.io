@@ -16,29 +16,24 @@
         <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title">
-                <a href="/">{{ site.name }}</a>
-              </h1>
-            </div>
-              {{ content }}
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
+        <div>
+          <div>
+            <div>
+              <div class="title">
+                {{ site.title }}
               </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
+              <div class="social">
+                <a href="http://www.github.com/haeky" class="github" title="GitHub" target="blank">GitHub</a>
+                <a href="http://www.twitter.com/laurentdang" class="twitter" title="Twitter" target="blank">Twitter</a>
+                <a href="http://ca.linkedin.com/in/laurentdang/" class="linkedin" title="LinkedIn" target="blank">LinkedIn</a>
+                <a href="/atom.xml" class="rss" title="RSS" target="blank">RSS</a>
+              </div>
+              <div class="clear"></div>
+              <div class="subtitle">
+                {{ site.subtitle }}
               </div>
             </div>
+            {{ content }}
           </div>
         </div>
     </body>

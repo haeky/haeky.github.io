@@ -1,3 +1,4 @@
-name: Do not disturb!
+title: Do not disturb!
+subtitle: by Laurent Dang (haeky)
 markdown: redcarpet
 pygments: false

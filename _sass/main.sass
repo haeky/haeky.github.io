@@ -10,9 +10,44 @@ body
   length: 100%
   margin-right: auto
   margin-left: auto
+  font-family: "Gentium Book Basic", serif
 
-h1 a:link, h1 a:active, h1 a:visited, h1 a:hover
+.title
   color: #ff6036
-  font: bold 5em "Gentium Book Basic",serif
   text-decoration: none
+  font: bold 5em "Gentium Book Basic",serif
+  float: left
+
+.subtitle
+  font-size: 1.5em
+
+.clear
+  clear: both
+
+.social
+  float: left
+  margin-left: 50px
+  padding-top: 25px
+  a
+    text-indent: -9999px
+    margin-right: 15px
+    opacity: 0.5
+    display: inline-block
+    height: 40px
+    width: 40px
+    &:hover
+      opacity: 1
+    &.twitter
+      background: image-url('/img/twitter.png') center no-repeat transparent
+      background-size: 40px 40px
+    &.github
+      background: image-url('/img/github.png') center no-repeat transparent
+      background-size: 40px 40px
+    &.linkedin
+      background: image-url('/img/linkedin.png') center no-repeat transparent
+      background-size: 40px 40px
+    &.rss
+      background: image-url('/img/rss.png') center no-repeat transparent
+      background-size: 40px 40px
+
 

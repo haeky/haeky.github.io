@@ -1,4 +1,4 @@
 haeky.github.io
 ===============
 
-My blog using Jekyll and Octopress
+My blog using Jekyll

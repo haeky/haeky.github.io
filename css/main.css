@@ -73,11 +73,63 @@ body {
   length: 100%;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Gentium Book Basic", serif;
 }
 
-/* line 14, ../_sass/main.sass */
-h1 a:link, h1 a:active, h1 a:visited, h1 a:hover {
+/* line 15, ../_sass/main.sass */
+.title {
   color: #ff6036;
-  font: bold 5em "Gentium Book Basic", serif;
   text-decoration: none;
+  font: bold 5em "Gentium Book Basic", serif;
+  float: left;
+}
+
+/* line 21, ../_sass/main.sass */
+.subtitle {
+  font-size: 1.5em;
+}
+
+/* line 24, ../_sass/main.sass */
+.clear {
+  clear: both;
+}
+
+/* line 27, ../_sass/main.sass */
+.social {
+  float: left;
+  margin-left: 50px;
+  padding-top: 25px;
+}
+/* line 31, ../_sass/main.sass */
+.social a {
+  text-indent: -9999px;
+  margin-right: 15px;
+  opacity: 0.5;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+/* line 38, ../_sass/main.sass */
+.social a:hover {
+  opacity: 1;
+}
+/* line 40, ../_sass/main.sass */
+.social a.twitter {
+  background: url(/img/twitter.png) center no-repeat transparent;
+  background-size: 40px 40px;
+}
+/* line 43, ../_sass/main.sass */
+.social a.github {
+  background: url(/img/github.png) center no-repeat transparent;
+  background-size: 40px 40px;
+}
+/* line 46, ../_sass/main.sass */
+.social a.linkedin {
+  background: url(/img/linkedin.png) center no-repeat transparent;
+  background-size: 40px 40px;
+}
+/* line 49, ../_sass/main.sass */
+.social a.rss {
+  background: url(/img/rss.png) center no-repeat transparent;
+  background-size: 40px 40px;
 }
