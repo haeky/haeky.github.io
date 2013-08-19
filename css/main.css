@@ -69,31 +69,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 8, ../_sass/main.sass */
 body {
+  width: 960px;
   length: 100%;
   margin: 0px auto;
   font-family: "Gentium Book Basic", serif;
 }
 
-/* line 13, ../_sass/main.sass */
+/* line 14, ../_sass/main.sass */
 .title {
   color: #ff6036;
   text-decoration: none;
-  font: bold 450% "Gentium Book Basic", serif;
+  font: bold 400% "Gentium Book Basic", serif;
   float: left;
 }
 
-/* line 19, ../_sass/main.sass */
+/* line 20, ../_sass/main.sass */
 .clear {
   clear: both;
 }
 
-/* line 22, ../_sass/main.sass */
+/* line 23, ../_sass/main.sass */
 .social {
   float: left;
-  margin-left: 50px;
-  padding-top: 25px;
+  margin-left: 45px;
+  padding-top: 15px;
 }
-/* line 26, ../_sass/main.sass */
+/* line 27, ../_sass/main.sass */
 .social a {
   text-indent: -9999px;
   margin-right: 15px;
@@ -102,26 +103,26 @@ body {
   height: 40px;
   width: 40px;
 }
-/* line 33, ../_sass/main.sass */
+/* line 34, ../_sass/main.sass */
 .social a:hover {
   opacity: 1;
 }
-/* line 35, ../_sass/main.sass */
+/* line 36, ../_sass/main.sass */
 .social a.twitter {
   background: url(/img/twitter.png) center no-repeat transparent;
   background-size: 40px 40px;
 }
-/* line 38, ../_sass/main.sass */
+/* line 39, ../_sass/main.sass */
 .social a.github {
   background: url(/img/github.png) center no-repeat transparent;
   background-size: 40px 40px;
 }
-/* line 41, ../_sass/main.sass */
+/* line 42, ../_sass/main.sass */
 .social a.linkedin {
   background: url(/img/linkedin.png) center no-repeat transparent;
   background-size: 40px 40px;
 }
-/* line 44, ../_sass/main.sass */
+/* line 45, ../_sass/main.sass */
 .social a.rss {
   background: url(/img/rss.png) center no-repeat transparent;
   background-size: 40px 40px;
