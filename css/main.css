@@ -69,8 +69,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 8, ../_sass/main.sass */
 body {
-  width: 970px;
   length: 100%;
+  margin: 0px auto;
   font-family: "Gentium Book Basic", serif;
 }
 
