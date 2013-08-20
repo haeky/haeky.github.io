@@ -154,9 +154,9 @@ body {
   border: 5px solid #ff6036;
   width: 180px;
   height: 180px;
-  border-radius: 90px 90px 90px 90px;
-  -moz-border-radius: 90px 90px 90px 90px;
-  -webkit-border-radius: 90px 90px 90px 90px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   background: url(/img/logo.png) center no-repeat transparent;
   background-size: 180px 180px;
 }
