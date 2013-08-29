@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 8, ../_sass/main.sass */
 body {
   length: 100%;
-  font-family: "Gentium Book Basic", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /* line 12, ../_sass/main.sass */
@@ -164,6 +164,8 @@ body {
 /* line 72, ../_sass/main.sass */
 .description {
   margin: 10px;
+  color: #777777;
+  line-height: 1.6em;
   text-align: justify;
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
