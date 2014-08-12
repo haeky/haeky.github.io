@@ -1,3 +1,4 @@
 title: "Laurent Dang"
 markdown: redcarpet
-pygments: false
+highlighter: none
+        
