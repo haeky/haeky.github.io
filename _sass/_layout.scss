@@ -285,6 +285,10 @@
 .description {
     margin-top: $spacing-unit;
     text-align: justify;
+
+    p {
+      margin-bottom: $spacing-unit;
+    }
 }
 
 .social {
