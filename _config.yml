@@ -17,6 +17,6 @@ markdown: kramdown
 # Navigation
 navigation:
   - title: Blog
-    url: /index.html
+    url: /blog.html
   - title: About
-    url: /about.html
+    url: /index.html
