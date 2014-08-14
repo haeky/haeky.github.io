@@ -11,6 +11,10 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
       {% endfor %}
+    {% else %}
+      <li>
+        I don't have a blog post yet :(
+      </li>
     {% endif %}
   </ul>
 </div>
