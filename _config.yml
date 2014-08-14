@@ -1,4 +1,22 @@
-title: "Laurent Dang"
-markdown: redcarpet
-highlighter: none
-        
+# Site settings
+title: Laurent Dang
+email: dang.laurent@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, my name is Laurent. I am currently studying in École de technologie supérieure in Montréal in automated production engineering.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.laurentdang.com" # the base hostname & protocol for your site
+twitter_username: laurentdang
+github_username:  haeky
+
+sass:
+  sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+
+# Navigation
+navigation:
+  - title: Blog
+    url: /index.html
+  - title: About
+    url: /about.html
