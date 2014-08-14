@@ -166,7 +166,9 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    margin-top: $spacing-unit;
+    font-size: 28px;
+    text-align: center;
 }
 
 .post-list {
@@ -179,13 +181,15 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    width: 125px;
+    display: inline-block;
+    font-size: $base-font-size;
     color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+    font-size: $base-font-size;
+    color: $grey-color;
 }
 
 
@@ -194,6 +198,7 @@
  * Posts
  */
 .post-header {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
@@ -238,7 +243,7 @@
 
 
 /**
- * Custom
+ * Customization
  */
 
 .title { 
@@ -278,12 +283,14 @@
 }
 
 .description {
+    margin-top: $spacing-unit;
     text-align: justify;
 }
 
 .social {
+    border-bottom: 1px solid #ddd;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: $spacing-unit;
   
     a {
         text-indent: -9999px;
